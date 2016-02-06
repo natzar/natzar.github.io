@@ -17,3 +17,5 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
 .courier{font-family:"courier new","courier";font-size:13px;}
+
+.left{max-width: 650px}
