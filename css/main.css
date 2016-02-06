@@ -20,7 +20,7 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 p {font-size:13px;}
 .left{max-width: 500px}
 
-.thumbnail { border:none;}
+.thumbnail { border:none !important;outline: none}
 .thumbnail > * { border:none;}
 
 .col-md-6:nth(2)+1{
