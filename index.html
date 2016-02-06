@@ -99,6 +99,20 @@
         $('#content').load($(this).attr("href"));
     });
     
+    function adjust(){
+
+    	var mobile = window.innerWidth <= 800 && window.innerHeight <= 600;
+    	if (!mobile){
+
+    		$('.left').css("position","fixed");
+    	}else{
+    		$('.left').css("position","relative");
+    	}
+    }
+    $(window,document).resize(function(){
+    	adjust();
+    });
+    
     </script>
 </body>
 </html>
