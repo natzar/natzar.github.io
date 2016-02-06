@@ -1,6 +1,6 @@
 body { margin: 60px auto;}
 
-a { text-decoration: none; color: #999; }
+a { text-decoration: none; color: #4b4b4b; }
 a:hover { text-decoration: underline; }
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
