@@ -64,11 +64,11 @@
 
 			I am curious, always learning, results-oriented  senior software architect with over 8 years of experience involving agile software development practices, analysis, design, implementation and testing of Internet applications (desktop and mobile). I make it my goal to create software with the user in mind, creating applications with a useable and intuitive user interface experience. I also understand the importance of creating highly readable and easily maintainable source code. I am constantly striving to learn new technologies and look to ways to better myself in this rapidly changing industry.
 
-<img src="/icons/Twitter.png"><img src="icons/Github.png"><img src="/icons/Linkedin.png">
+<img src="/icons/Twitter.png"><img src="icons/Github.png"><img src="/icons/linkedin.png">
 <a href="http://stackoverflow.com/users/4945732"><img height="28" src="/icons/stackoverflow.png"></a>
 
-<a id="buttonCV" href="#">CV</a><br>
-<a id="buttonPastProjects" href="#">Past Projects</a>
+<a class="openurl" href="cv.html">CV</a><br>
+<a class="openurl" href="work.html">Past Projects</a>
 Download
 
 		</div>
@@ -86,13 +86,9 @@ Download
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script>
     
-    $('#buttonPastProjects').click(function(e){
+    $('.openurl').click(function(e){
         e.preventDefault();
-        $('#content').load('work.html');
-    });
-    $('#buttonCV').click(function(e){
-        e.preventDefault();
-        $('#content').load('cv.html');
+        $('#content').load($(this).attr("href"));
     });
     
     </script>
