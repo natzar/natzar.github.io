@@ -103,9 +103,7 @@
     });
     
     function adjust(){
-
-    	var mobile = window.innerWidth <= 750 && window.innerHeight <= 600 && parseInt($(window).width()) <= 748;
-    	if (!mobile){
+    	if (parseInt($(window).width()) > 1024){
 
     		$('.left').css("position","fixed");
     	}else{
@@ -113,11 +111,9 @@
     	}
     }
     $(window).resize(function(){
-    	if (parseInt($(window).width()) < 1200){
-			$('.left').css("position","inherit");
-    	}else{
+    	
     	setTimeout(adjust,100);
-    	}
+    	
     });
     $(document).ready(function(){
    		 adjust();	
