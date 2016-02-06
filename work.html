@@ -1,4 +1,4 @@
-<h3 class="page-header">Past Projects</h3>
+<h2 class="page-header">Past Projects</h2>
 
 
 
@@ -461,33 +461,3 @@
       </div>
 
 
-
-
-<script type="text/javascript">
-var actual_work = 3;
-	
-			
-function more(e){aux = $('.row-works'); num_more = parseInt(actual_work) + 1;for (i = actual_work;i < num_more;i++){if ($(aux[i])) $(aux[i]).fadeIn();actual_work++;}if (actual_work >= aux.size()){$('#more_button').fadeOut();} }
- 
- $(document).ready(function()
-{
-	console.log("96LEVELS");
-	console.log("Standart Loaded...");
-	console.log("document.ready()");
-	var base_url = BASE_URL;
-	var loc = unescape(document.location.href);
-	var cadena;
-	cadena = loc;
-	cadena = "/"+loc.substr(loc.indexOf(base_url)+base_url.length);
-	var obj = $("a[href='"+cadena+"']");
-	obj.each(function(){
-		if ($(this).parent().get( 0 ).tagName == 'LI'){
-			$(this).parent().addClass("active list-group-item-active");
-			$(this).addClass("active list-group-item-active");
-		}else{
-			$(this).addClass("active list-group-item-active");			
-			$(this).parent().addClass("active list-group-item-active");			
-		}
-	});
-});
-</script>

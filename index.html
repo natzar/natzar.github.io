@@ -99,6 +99,7 @@
     $('.openurl').click(function(e){
         e.preventDefault();
         $('#content').load($(this).attr("href"));
+        scrollTo(0,0);
     });
     
     function adjust(){
