@@ -19,3 +19,6 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 .courier{font-family:"courier new","courier";}
 p {font-size:13px;}
 .left{max-width: 500px}
+
+.thumbnail { border:none;}
+.thumbnail > * { border:none;}
