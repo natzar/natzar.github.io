@@ -66,15 +66,17 @@
 	
 			<a class="openurl" href="cv.html">Curriculum Vitae</a> | 
 <a class="openurl" href="work.html">Past Projects</a><br>
+
+<br>
 <br>
 <p class="courier">+ Senior Front-end Developer<br>
-+ Backend PHP / NodeJs / <strike>Parse</strike><br>
-+ Databases MySql / MongoDB / Redis <br>
++ Back-end: PHP / NodeJs / <strike>Parse</strike><br>
++ Databases: MySql / MongoDB / Redis <br>
 + Amateur iOS Developer<br>
-+ I build digital artifacts (sometimes for free) to anyone who writes me at <a href="mailto:betolopezayesa@gmail.com">email</a>
++ I build digital artifacts (sometimes for free) to anyone who starts writes me at <a href="mailto:betolopezayesa@gmail.com">email</a>
 			</p>
 
-<img src="/icons/Twitter.png"><img src="icons/GitHub.png"><img src="/icons/LinkedIn.png">
+<a href="http://www.twitter.com/betoayesa"><img src="/icons/Twitter.png"></a><a href="http://www.github.com/natzar"><img src="icons/GitHub.png"></a><a href="https://es.linkedin.com/in/betoayesa"><img src="/icons/LinkedIn.png"></a>
 <a href="http://stackoverflow.com/users/4945732"><img height="28" src="/icons/stackoverflow.png"></a>
 <br><br>
 
@@ -87,6 +89,10 @@
 		      <h3>Real Food Shop</h3>
 		      <small>6 Feb 2016</small>
 		      www.marinafigueroa.com
+
+			<h3>You have monkey mind, always busy</h3>
+			<p>Medium article</p>
+			<a href="https://medium.com/@betoayesa/3-months-living-and-working-in-ubud-bali-e094ef35371a#.2ay1wlchu">About living and working in Bali</a>
 		</div>
 		
 		</div>
@@ -106,11 +112,11 @@
 
     		$('.left').css("position","fixed");
     	}else{
-    		$('.left').css("position","relative");
+    		$('.left').css("position","inherit");
     	}
     }
-    $(window,document).resize(function(){
-    	setTimeout(adjust,50);
+    $(window).resize(function(){
+    	setTimeout(adjust,100);
     });
     $(document).ready(function(){
    		 adjust();	
