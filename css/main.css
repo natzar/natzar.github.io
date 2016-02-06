@@ -22,3 +22,7 @@ p {font-size:13px;}
 
 .thumbnail { border:none;}
 .thumbnail > * { border:none;}
+
+.col-md-6:nth(2)+1{
+float:right;
+}
