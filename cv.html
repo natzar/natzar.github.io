@@ -12,9 +12,9 @@ Nationality: Spain.<br>
 <h2>Professional Experience</h2>
 
 
-September 2006 – December 2015	Full Stack Developer <br>
+
 <h3>Freelance</h3>
-	<br>
+September 2006 – December 2015	Full Stack Developer <br>
 Almost 9 years of "You Design it, I'll Code it".<br>
 I worked with consulting companies, startups, designers, advertising agencies, companies and direct clients. <br>
 <br>
@@ -40,18 +40,18 @@ I worked with consulting companies, startups, designers, advertising agencies, c
 + Git<br>
 
 <br>
-September 2004 – August 2006	Web developer <br>
+
 <h3>Intersalus S.A., Barcelona</h3>
-	
+September 2004 – August 2006	Web developer <br>	
 I developed various Internet-based platforms for Intersalus. Specifically, a customer's areas to share documents and project progress, an Intranet for internal communication and management, and a tool to manage ISO standards. A part from these platforms, I was responsible for maintaining Intersalus website. + Html, Css, Javascript, Php, MySql<br>
 <br>
 
 <h3>Featured Projects</h3>
 Espinner<br>
 NodeJs	“Natural language text processing for SEO purposes”. SasS. API.<br>
-<br>
 	www.espinner.net<br>
-Monta tu luna de miel<br>
+
+<h4>Monta tu luna de miel</h4>
 Startup prototype<br>
 <br>
 	“Crowd funding for honey moons”<br>
@@ -79,7 +79,7 @@ Bartering site	A place to barter goods	Nodejs<br>
 PHONEGAP
 Electronic Vehicle charging stations locations-map APP	A mobile app to find your nearest electronic charging stations.<br>
 
-ROBIN - 
+<h4>ROBIN</h4>
 Crawlers and Scrapers	EBay, Pinterest, Google, Apple Store, Android Market, etc …	Python, Php<br>
 Mobile App Discovery service	Algorithm to Rank apps in our system. All data scraped weekly from original sites.	Bootstrap, Php, MySql<br>
 Spanish Laws Search Engine	An open and easy way to find all laws related to  a Subject	NodeJs, MongoDB<br>
@@ -109,12 +109,11 @@ Català	Native<br>
 English	Professional working proficiency<br>
 Française	Limited working proficiency<br>
 Deutsch	Basic reading <br>
-<br>
+
 <h3>Hobbies</h3>
-<br>
-<br>
+
 Nature, Travel, Reading, Water Sports,  Cook for friends,  Watching series and films.<br>
- <br>
+
  <h3>Trips</h3>
 1999 - Inter-rail, France-Belgium-Netherlands<br>
 2003 - Morrocco<br>
@@ -131,4 +130,16 @@ Nature, Travel, Reading, Water Sports,  Cook for friends,  Watching series and f
 
 
 
+<script>
+var bornDate = new Date('1983-07-19');
+var borntime = bornDate.getTime();
+setInterval(function(){
+	var d = new Date();
+	var passed = d.getTime() - borntime;
+	passed = passed / (1000*60*60*24*365);
+	$('#age').text(passed);
+},200);
 
+
+
+</script>
