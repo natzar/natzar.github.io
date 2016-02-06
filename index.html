@@ -113,7 +113,11 @@
     	}
     }
     $(window).resize(function(){
+    	if (parseInt($(window).width()) < 600){
+			$('.left').css("position","inherit");
+    	}else{
     	setTimeout(adjust,100);
+    	}
     });
     $(document).ready(function(){
    		 adjust();	
