@@ -6,11 +6,11 @@ a:hover { text-decoration: none; }
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
 h1, h2,h3 { /* font-family: 'Helvetica', 'Arial', 'Sans-Serif';  */font-family: 'EB Garamond', serif;}
-h4,h5{font-family: 'Helvetica', 'Arial', 'Sans-Serif';font-weight: bold;letter-spacing: -1px;text-transform: uppercase;}
+h4,h5{font-family: 'Helvetica', 'Arial', 'Sans-Serif';font-weight: bold;text-transform: uppercase;}
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
-h3 { font-size: 2.1em; }
-h4 { font-size: 1.5em; }
+h3 { font-size: 1.9em; }
+h4 { font-size: 1.3em; }
 
 
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
