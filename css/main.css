@@ -26,3 +26,4 @@ p {font-size:13px;}
 .col-md-6:nth(2)+1{
 float:right;
 }
+.clearfix{clear:both;}
