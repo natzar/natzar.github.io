@@ -1,4 +1,4 @@
-body { margin: 60px auto;}
+body { margin: 60px auto;background: #4b4b4b; color: #e7e7e7;}
 
 a { text-decoration: underline; color: #4b4b4b; }
 a:hover { text-decoration: none; }
