@@ -1,6 +1,6 @@
-body { margin: 60px auto;background: #4b4b4b; color: #e7e7e7;}
+body { margin: 60px auto;background: #4b4b4b; }
 
-a { text-decoration: underline; color: #4b4b4b; }
+a { text-decoration: underline; }
 a:hover { text-decoration: none; }
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
@@ -25,3 +25,5 @@ p {font-size:14px;}
 .thumbnail > * { border:none;}
 
 .clearfix{clear:both;}
+
+*{color: color: #e7e7e7;}
