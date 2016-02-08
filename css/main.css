@@ -3,7 +3,7 @@ body { margin: 60px auto;background: #333; }
 a { text-decoration: underline; }
 a:hover { text-decoration: none; }
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
+p, ul { font-size: 1.5em; line-height: 1.4em;  }
 
 h1, h2,h3,h4,h5 { /* font-family: 'Helvetica', 'Arial', 'Sans-Serif';  */font-family: 'EB Garamond', serif;}
 /*h4,h5{font-family: 'Helvetica', 'Arial', 'Sans-Serif';font-weight: bold;text-transform: uppercase;}*/
@@ -26,4 +26,4 @@ p {font-size:14px;}
 
 .clearfix{clear:both;}
 
-*{color:  #e7e7e7;}
+*{color:  #e7e7e7 !important;}
