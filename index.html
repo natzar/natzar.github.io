@@ -78,7 +78,7 @@
 		</div>
 		</div>
 		<div class="col-md-6">
-		<a class="openurl" href="home.html">Home</a> / <a class="openurl" href="cv.html">Curriculum Vitae</a> / <a class="openurl" href="work.html">Past Projects</a>
+		 <a class="openurl" href="work.html">Past Projects</a> / <a class="openurl" href="cv.html">Curriculum Vitae</a> / <a class="openurl" href="home.html">Links</a> 
 		<div id="content" class="">
 		      
 		     
@@ -92,7 +92,7 @@
     $('.openurl').click(function(e){
         e.preventDefault();
         $('#content').load($(this).attr("href"));
-        scrollTo(0,0);
+       // scrollTo(0,0);
     });
     
     function adjust(){
@@ -110,7 +110,7 @@
     });
     $(document).ready(function(){
    		 adjust();	
-   		 $('#content').load('home.html');
+   		 $('#content').load('work.html');
 	});
     
     
