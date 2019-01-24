@@ -9,7 +9,7 @@ h1,h2{font-family: 'EB Garamond', 'serif';
     width: 100%;
     line-height: 1.125;
     font-weight: 700;}
-h1{letter-spacing: -0.04rem;text-align:center;font-size:109px;margin-top:40px;margin-bottom:5px;}
+h1{letter-spacing: -0.4rem;text-align:center;font-size:109px;margin-top:40px;margin-bottom:5px;}
 h2{font-size:49px;letter-spacing:-0.05rem;}#bar{margin-top:15px;background-color:#2EA3B3;height:44px;width:100%;}
 .container{max-width:900px;margin:0 auto;padding:10px;}
 a{color:#0000aa;text-decoration:underline;}a:hover{color:#393f47;text-decoration:underline;font-weight:bold;}
