@@ -1,22 +1,14 @@
-html,body{width:100%;}body{font-family: 'Times New Roman', serif;
-    letter-spacing: -0.025rem;
-    width: 100%;
-    font-size: 0.875em;
-    line-height: 1.75;
-    font-weight: 400;}
-h1,h2{
+html,body{width:100%;}body{font-family: 'Times New Roman', serif;line-height: 16pt;
+    letter-spacing: -0.2pt;}
     
-    width: 100%;
-    line-height: 1.125;
-    font-weight: 700;}
-h1{letter-spacing: -0.4rem;text-align:center;font-size:109px;margin-top:40px;margin-bottom:5px;}
-h2{font-size:49px;letter-spacing:-0.05rem;}#bar{margin-top:15px;background-color:#2EA3B3;height:44px;width:100%;}
+
+
 .container{max-width:900px;margin:0 auto;padding:10px;}
 a{color:#0000aa;text-decoration:underline;}a:hover{color:#393f47;text-decoration:underline;font-weight:bold;}
 #socialWrapper{text-align:center;}#social{display:inline-block;list-style:none;overflow:hidden;margin:0;padding:0;}
 #social li{float:left;margin-right:10px;}#social .fa{font-size:32px;color:#404040;padding:10px;}#social .fa:hover{color:#393f47;}
 
-h2{text-transform:lowercase;}
+
 .quote{font-style:italic;border-top:2px solid #f2f2f2;margin:20px 0 0 0;padding:40px 20px 0 0;text-align:center;}
 #cols{display:flex;}#cols>div{width:50%;padding:10px;}ul#posts{padding-left:20px;}
 @media only screen and (max-width: 600px) {#cols{flex-direction:column;}
