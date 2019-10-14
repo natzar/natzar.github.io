@@ -1,8 +1,8 @@
-html,body{width:100%;}body{line-height: 20pt;font-family: 'EB Garamond', serif;font-size: 18px; }
+html,body{width:100%;}body{line-height: 20pt;   font-family: ff-meta-serif-web-pro, serif;font-size: 18px; }
     
-h1, h2, h3{  font-family: 'Helvetica Neue','Helvetica', sans-serif;letter-spacing: -0.2pt}
+h1, h2, h3{  font-family: 'Helvetica Neue','Helvetica', sans-serif; font-family: ff-meta-serif-web-pro, serif;letter-spacing: -0.2pt}
 
-.container{max-width:1024px;margin:0 auto;padding:10px;}
+.container{max-width:650px;margin:0 auto;padding:10px;}
 
 #socialWrapper{text-align:center;}#social{display:inline-block;list-style:none;overflow:hidden;margin:0;padding:0;}
 #social li{float:left;margin-right:10px;}#social .fa{font-size:32px;color:#404040;padding:10px;}#social .fa:hover{color:#393f47;}
