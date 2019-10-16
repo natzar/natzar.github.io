@@ -1,6 +1,9 @@
-html,body{width:100%;}body{line-height: 20pt;   font-family: ff-meta-serif-web-pro, serif;font-size: 18px; }
+html,body{width:100%;}
+body{line-height: 20pt;   font-family: 'Alegreya', ff-meta-serif-web-pro, serif;font-size: 18px; }
     
-h1, h2, h3{  font-family: 'Helvetica Neue','Helvetica', sans-serif; font-family: ff-meta-serif-web-pro, serif;letter-spacing: -0.2pt}
+h1, h2, h3{  font-family: 'Varela Round','Helvetica', sans-serif; font-weight: 900}
+
+
 
 .container{max-width:650px;margin:0 auto;padding:10px;}
 

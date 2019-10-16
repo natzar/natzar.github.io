@@ -38,6 +38,7 @@
 
 <!-- <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700&display=swap" rel="stylesheet"> -->
 
+<link href="https://fonts.googleapis.com/css?family=Alegreya|Inknut+Antiqua:900|Varela+Round&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css" rel="stylesheet">
@@ -48,27 +49,82 @@
 
 
 <div class="container">
-  <h1>DEVELOPER / FIXER</h1>
+<div style="width:100px;height:100px;border-radius:50px;overflow: hidden;text-align: center">
+  <img width="100" style="margin:0 auto" src="beto-big.jpg">
+</div>
+  <h1>Developer to go</h1>
 <div id="about">
 
 <p>
-Hi! I usually fix all my friends' websites. I thought I should to the same for everyone. I'm trully worried with people that has a website, but no tech help. ¿How the h***l you do it? 
-If you need an extra hand, I'm here. I have more than 10 years of experience with Javascript, Php, WordPress, Prestashop and almost any website stuff. Check my CV in <a href="https://linkedin.com/in/betoayesa" target="_blank"><i class="fa fa-linkedin"></i> Linkedin</a>.
- <br><br>
- I can fix anything on the same day for $100. <br>
+Hi!  I can fix anything on the <strong>same day for $150</strong>.<br><br>
+
+After 10 years of experience with Javascript, Php, WordPress, Prestashop and <i>almost</i> any website stuff I've become very good at fixing things. Previously I was working as a Full Stack Developer in a Startup. Check my CV in <a href="https://linkedin.com/in/betoayesa" target="_blank">Linkedin</a>.
+<br><br>
+My name is Beto Ayesa, from Barcelona, Spain. I'm a software engineer working on different projects and I do this to fund them. Everyone I know calls me when having issues on their website, now you can too.
+
+
  <ul>
 <li>Urgent Repair. Hacked site, internal server error or site down.</li>
 <li>Tweaks. Themes, plugins, SEO, SSL, ...</li>
 <li>Optimization. Fine Tunning for outdated or slow sites</li>
 <li>Hosting Migration</li>
  </ul>
+
+
+<!-- Load Stripe.js on your website. -->
+<script src="https://js.stripe.com/v3"></script>
+
+<!-- Create a button that your customers click to complete their purchase. Customize the styling to suit your branding. -->
+<button
+  style="background-color:#6772E5;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em;margin:0 auto"
+  id="checkout-button-sku_Ev5IysKI396sqe"
+  role="link"
+>
+  Pay $150 with Card &raquo;
+</button>
 <br>
-This is also an experiment to check if a more personal & transparent website approach works better than small-company approach. <a href="https://www.phpninja.info">PhpNinja - Website Repair & Server Maintenance</a>, this is also me.
+<small>We will continue by email right after the payment is complete.</small>
+<div id="error-message"></div>
 
-<p>Write me <a href="mailto:betolopezayesa@gmail.com">betolopezayesa@gmail.com</a>. My name is Beto Ayesa <a href="https://twitter.com/betoayesa" target="_blank"><i class="fa fa-twitter"></i> Twitter @betoayesa</a>
+<script>
+(function() {
+  var stripe = Stripe('pk_live_CRwYd2wN64LqtVhQ4d6AnyKi');
+
+  var checkoutButton = document.getElementById('checkout-button-sku_Ev5IysKI396sqe');
+  checkoutButton.addEventListener('click', function () {
+    // When the customer clicks on the button, redirect
+    // them to Checkout.
+    stripe.redirectToCheckout({
+      items: [{sku: 'sku_Ev5IysKI396sqe', quantity: 1}],
+
+      // Do not rely on the redirect to the successUrl for fulfilling
+      // purchases, customers may not always reach the success_url after
+      // a successful payment.
+      // Instead use one of the strategies described in
+      // https://stripe.com/docs/payments/checkout/fulfillment
+      successUrl: 'http://phpninja.info/success',
+      cancelUrl: 'http://phpninja.info/canceled',
+    })
+    .then(function (result) {
+      if (result.error) {
+        // If `redirectToCheckout` fails due to a browser or network
+        // error, display the localized error message to your customer.
+        var displayError = document.getElementById('error-message');
+        displayError.textContent = result.error.message;
+      }
+    });
+  });
+})();
+</script>
+<br><p>
+This is also an experiment to check how a more personal & honest website conversion rate compares to a small-company one. <a href="https://www.phpninja.info">PhpNinja - Website Repair & Server Maintenance</a>, this is also me.
 </p>
+<a href="mailto:betolopezayesa@gmail.com"><i class="fa fa-envelope"></i> betolopezayesa@gmail.com</a> <br>
+<a href="https://twitter.com/betoayesa" target="_blank"><i class="fa fa-twitter"></i> Twitter @betoayesa</a><br>
 
 
+<a href="https://linkedin.com/in/betoayesa" target="_blank"><i class="fa fa-linkedin"></i> Linkedin</a><br>
+ 
 
 
 
