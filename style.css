@@ -1,7 +1,7 @@
 html,body{width:100%;}
-body{line-height: 20pt;   font-family: 'Alegreya', ff-meta-serif-web-pro, serif;font-size: 18px; }
+body{line-height: 20pt;   font-family: 'Alegreya', ff-meta-serif-web-pro, serif;font-size: 18px; background: #fafafa;color:#4b4b4b;}
     
-h1, h2, h3{  font-family: 'Varela Round','Helvetica', sans-serif; font-weight: 900}
+h1, h2, h3{  font-family: 'Courier New','Helvetica', sans-serif; font-weight: 900}
 
 
 
