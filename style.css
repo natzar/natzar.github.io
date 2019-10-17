@@ -32,7 +32,7 @@ tr {
     /* display: block; */
 thead td{ font-weight: bold;font-size: 20px }
 a{
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #4b4b4b;
 	text-decoration: none;
 	color:#4b4b4b;
 }
