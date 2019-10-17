@@ -34,7 +34,7 @@ thead td{ font-weight: bold;font-size: 20px }
 a{
 	border-bottom: 2px solid black;
 	text-decoration: none;
-	color:Black;
+	color:#4b4b4b;
 }
 a:hover{
 	border-bottom: 2px solid red;	
