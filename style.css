@@ -1,6 +1,7 @@
 html,body{width:100%;}
 body{
     line-height: 20pt;   font-family: 'Alegreya', ff-meta-serif-web-pro, serif;font-size: 18px; background: #fdfdfd;color:#4b4b4b;
+    font-size: 19px
 }
     
 h1,  h3{  font-family: 'Nunito','Helvetica', sans-serif; font-weight: 900}
