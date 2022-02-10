@@ -1,6 +1,6 @@
 html,body{width:100%;}
 body{
-    line-height: 20pt;   font-family: 'Alegreya', ff-meta-serif-web-pro, serif;font-size: 18px; background: #fafafa;color:#4b4b4b;
+    line-height: 20pt;   font-family: 'Alegreya', ff-meta-serif-web-pro, serif !impoprtant;font-size: 18px; background: #fafafa;color:#4b4b4b;
     font-size: 19px;
     padding-bottom:80px
 
