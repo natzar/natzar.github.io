@@ -75,7 +75,13 @@ background:#2b2b2b; /* linear-gradient(to top, #fff, #F3F4F6); */ /* W3C, IE 10+
   height: 70px;
     line-height: 54px;
     letter-spacing: -1px
-         }
+
+
+  white-space: nowrap;      /* Keep the text on a single line */
+  overflow: hidden;         /* Hide text that goes beyond the box */
+  text-overflow: ellipsis;  /* Add ellipsis to overflowed text */
+}
+
          a.block:hover{
           background: rgba(0,0,0,0.9);
           
